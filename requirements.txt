@@ -2,5 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
-scikit
+scikit-learn
 sklearn
+setup
+find_packages
