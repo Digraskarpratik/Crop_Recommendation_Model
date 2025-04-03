@@ -5,7 +5,7 @@ matplotlib
 seaborn
 scikit-learn
 sklearn
-setup
-find_packages
-joblist
-setuptools
+#setup
+#find_packages
+#joblist
+#setuptools
