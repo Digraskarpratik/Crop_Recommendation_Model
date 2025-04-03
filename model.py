@@ -36,6 +36,10 @@ y= df["Crop"]
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size= 0.70, random_state= 42)
 
+scaler = MinMaxScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
 RF = RandomForestClassifier()
 
 RF.fit(X_train, y_train)
