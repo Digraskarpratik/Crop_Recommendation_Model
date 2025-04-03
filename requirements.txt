@@ -3,9 +3,4 @@ pandas
 warnings
 matplotlib
 seaborn
-scikit-learn
 sklearn
-#setup
-#find_packages
-#joblist
-#setuptools
